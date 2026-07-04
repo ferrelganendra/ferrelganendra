@@ -1,7 +1,7 @@
 # Hi 👋 I'm Ferrel
 
-> Junior Software Engineer from Yogyakarta, Indonesia.
-> Passionate about AI engineering & web/mobile dev — open to work.
+> Junior Software Engineer, Yogyakarta.
+> Into AI engineering, web, desktop & mobile dev. Open to work.
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=ferrelganendra&color=blue&style=flat)
 
@@ -25,7 +25,7 @@
 ### 🔭 What I'm up to
 
 - 🤖 Exploring RAG pipelines & LLM orchestration
-- 🌐 Building full-stack web & mobile apps
+- 🖥️ Building web, desktop & mobile apps
 - 💼 Open to AI Engineer / Software Dev roles
 
 ---
