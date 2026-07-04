@@ -1,11 +1,18 @@
 # Hi 👋 I'm Ferrel
 
-> Junior AI Engineer & Web Developer from Yogyakarta, Indonesia.
-> Building AI-powered tools & web apps — open to work.
-
-📫 [ferrelganendra.my.id](https://ferrelganendra.my.id) · [LinkedIn](https://linkedin.com/in/ferrelganendra) · [Instagram](https://instagram.com/ferrelganendra)
+> Junior Software Engineer from Yogyakarta, Indonesia.
+> Passionate about AI engineering & web/mobile dev — open to work.
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=ferrelganendra&color=blue&style=flat)
+
+---
+
+### 🌐 Connect with me
+
+[![LinkedIn](https://skillicons.dev/icons?i=linkedin)](https://linkedin.com/in/ferrelganendra)
+[![Instagram](https://skillicons.dev/icons?i=instagram)](https://instagram.com/ferrelganendra)
+
+🌍 [ferrelganendra.my.id](https://ferrelganendra.my.id)
 
 ---
 
@@ -18,8 +25,8 @@
 ### 🔭 What I'm up to
 
 - 🤖 Exploring RAG pipelines & LLM orchestration
-- 🌐 Building full-stack web apps
-- 💼 Open to AI Engineer / Web Dev roles
+- 🌐 Building full-stack web & mobile apps
+- 💼 Open to AI Engineer / Software Dev roles
 
 ---
 
