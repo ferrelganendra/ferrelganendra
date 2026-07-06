@@ -5,13 +5,13 @@
 ### Junior AI Engineer & Software Developer
 
 Informatics graduate from Yogyakarta, Indonesia.  
-I build AI-powered tools, web apps, and digital products that are useful beyond just demos.
+I build AI-powered tools, web apps, and digital products that turn ideas into real-world solutions.
 
-Currently exploring **RAG**, **LLM workflows**, and practical AI for real-world products.
+I like building things that are actually useful, not just demos.
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+AI-powered+tools;Developing+modern+web+apps;Exploring+RAG+and+LLM+workflows;Learning+by+shipping+real+projects)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=650&lines=Building+AI-powered+tools;Developing+modern+web+apps;Exploring+RAG+and+LLM+workflows;Turning+ideas+into+real+products;Coffee-powered+builder+%E2%98%95)](https://git.io/typing-svg)
 
 <br/>
 
@@ -21,25 +21,29 @@ Currently exploring **RAG**, **LLM workflows**, and practical AI for real-world 
 
 ---
 
+<img align="right" src="./assets/coding-boy.svg" width="230" alt="Coding animation" />
+
 ## About me
 
-<table>
-  <tr>
-    <td width="62%" valign="top">
-      <ul>
-        <li>🎓 Informatics graduate from <b>Yogyakarta, Indonesia</b></li>
-        <li>🧠 Interested in <b>AI engineering</b>, <b>software development</b>, and <b>product building</b></li>
-        <li>🚀 I enjoy turning ideas into usable digital products, not just prototypes</li>
-        <li>🔎 Currently exploring <b>RAG pipelines</b>, <b>LLM workflows</b>, and AI-powered apps</li>
-        <li>🛠️ Building with <b>Python</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>React</b>, <b>Next.js</b>, <b>FastAPI</b>, and <b>Supabase</b></li>
-        <li>💼 Open to <b>software engineering</b>, <b>AI</b>, and <b>web development</b> opportunities</li>
-      </ul>
-    </td>
-    <td width="38%" align="center">
-      <img src="./assets/coding-boy.svg" width="260" alt="Coding animation" />
-    </td>
-  </tr>
-</table>
+- 🎓 Informatics graduate from **Yogyakarta, Indonesia**
+- 🧠 Interested in **AI engineering**, **software development**, and **product building**
+- 🚀 I enjoy turning rough ideas into usable digital products
+- 🔎 Currently exploring **RAG pipelines**, **LLM workflows**, and practical AI use cases
+- 🛠️ Building with **Python**, **JavaScript**, **TypeScript**, **React**, **Next.js**, **FastAPI**, and **Supabase**
+- 💼 Open to opportunities in **software engineering**, **AI**, and **web development**
+- ⚡ Fun fact: I like shipping small experiments until they actually work
+
+<br clear="right"/>
+
+---
+
+## What I'm up to
+
+- 🔭 Currently building portfolio projects and AI-powered web tools
+- 🌱 Learning more about **RAG**, **LLM orchestration**, and full-stack deployment
+- 🤝 Open to collaborating on useful web apps, AI tools, and product ideas
+- 💬 Ask me about **AI tools**, **web development**, **Supabase**, **FastAPI**, and **React**
+- ☕ Usually building things with coffee nearby
 
 ---
 
@@ -92,46 +96,19 @@ Currently exploring **RAG**, **LLM workflows**, and practical AI for real-world 
 
 ---
 
-## What I like to build
+## Things I like to build
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🤖 AI-powered tools</h3>
-      <p>
-        Tools that use LLMs, RAG, automation, and machine learning to solve practical problems.
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🌐 Web products</h3>
-      <p>
-        Modern web apps with clean UI, useful features, and real deployment.
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ Fast experiments</h3>
-      <p>
-        Small but real projects to test ideas, learn faster, and improve my skills.
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎯 Product-minded engineering</h3>
-      <p>
-        Software that feels usable, clear, and valuable for real users.
-      </p>
-    </td>
-  </tr>
-</table>
+- 🤖 **AI-powered tools**  
+  Practical tools using LLMs, RAG, automation, and machine learning.
 
----
+- 🌐 **Web products**  
+  Modern web apps with clean UI, useful features, and real deployment.
 
-## Current focus
+- ⚡ **Fast experiments**  
+  Small projects to test ideas, learn faster, and improve by shipping.
 
-- Improving my AI engineering and full-stack development skills
-- Building projects for my portfolio and real-world use cases
-- Learning how to ship cleaner, faster, and more useful digital products
+- 🎯 **Product-minded software**  
+  Apps that feel clear, usable, and valuable for real users.
 
 ---
 
@@ -143,11 +120,16 @@ Currently exploring **RAG**, **LLM workflows**, and practical AI for real-world 
 
 ---
 
-## Top Languages
+<details>
+  <summary>GitHub stats</summary>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ferrelganendra&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages" />
-</p>
+  <br/>
+
+  <p align="center">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ferrelganendra&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages" />
+  </p>
+
+</details>
 
 ---
 
