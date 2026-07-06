@@ -2,16 +2,16 @@
 
 # Hi, I'm Ferrel
 
-### AI engineering, web apps, and small shipped experiments
+### I build web apps, AI tools, and small experiments that actually ship.
 
 Informatics graduate from Yogyakarta, Indonesia.  
-I like building tools from messy ideas: first a rough note, then a working screen, then something people can actually click.
+I like the messy part of building: turning a rough note into a screen, then into something with real data, broken edge cases, and a reason to exist.
 
-Usually coding with coffee nearby.
+<img src="./assets/coding-boy.svg" width="190" alt="Person coding at desk" />
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=650&lines=Making+RAG+less+fragile;Building+small+tools+that+ship;Turning+rough+ideas+into+working+apps;Debugging+wrong+assumptions;Coffee+nearby%2C+tabs+everywhere)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2600&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Making+RAG+less+fragile;Debugging+wrong+assumptions;Shipping+small+tools;Coffee+nearby%2C+tabs+everywhere)](https://git.io/typing-svg)
 
 <br/>
 
@@ -21,28 +21,23 @@ Usually coding with coffee nearby.
 
 ---
 
-<img align="right" src="./assets/coding-boy.svg" width="230" alt="Person coding at desk" />
-
 ## About me
 
-- 🎓 Informatics graduate from **Yogyakarta, Indonesia**
-- 🧠 Interested in **AI engineering**, **web development**, and product-shaped software
-- 🔎 Currently poking at **RAG**, **LLM workflows**, agents, and where they break in real apps
-- 🛠️ Often building with **Python**, **TypeScript**, **React**, **Next.js**, **FastAPI**, and **Supabase**
-- 💼 Open to software engineering, AI, and web development roles
-- ☕ Small belief: shipping teaches faster than polishing private drafts
-
-<br clear="right"/>
+- From **Yogyakarta, Indonesia**
+- Interested in **AI engineering**, **web development**, and product-shaped software
+- Currently poking at **RAG**, **LLM workflows**, agents, and where they break in real apps
+- Often building with **Python**, **TypeScript**, **React**, **Next.js**, **FastAPI**, and **Supabase**
+- Open to software engineering, AI, and web development roles
+- Small belief: shipping teaches faster than polishing private drafts
 
 ---
 
 ## What I'm up to
 
-- 🔭 Building portfolio projects I would actually revisit later
-- 🌱 Learning how LLM workflows behave after the demo stops being cute
-- 🤝 Open to collaborating on practical web apps, AI tools, and product ideas
-- 💬 Ask me about **RAG**, **FastAPI**, **Supabase**, **React**, and turning vague ideas into working apps
-- 🐛 Favorite kind of bug: wrong assumption, not wrong syntax
+- building portfolio projects I would actually revisit later
+- learning how LLM workflows behave after the demo stops being cute
+- turning vague ideas into working apps with clear buttons, errors, and data
+- trying to get better taste by shipping, noticing what feels off, then fixing it
 
 ---
 
@@ -57,61 +52,43 @@ Usually coding with coffee nearby.
   </a>
 </p>
 
-🌐 Portfolio: [ferrelganendra.my.id](https://ferrelganendra.my.id)
+Portfolio: [ferrelganendra.my.id](https://ferrelganendra.my.id)
 
 ---
 
-## Tech stack
+## Tech I reach for
 
-### Languages
+### Daily
 
 <p>
-  <img src="https://skillicons.dev/icons?i=py,js,ts,java,php,html,lua,matlab" />
+  <img src="https://skillicons.dev/icons?i=py,ts,js,react,nextjs,tailwind,fastapi,supabase,postgres,git,vscode,vercel" />
 </p>
 
-### Frontend
+### Also used
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vue,vite,tailwind,threejs" />
-</p>
-
-### Backend & database
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,fastapi,supabase,postgres" />
-</p>
-
-### AI / machine learning
-
-<p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn" />
-</p>
-
-### Tools & platforms
-
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,git,vscode,vercel,figma,pycharm,androidstudio,powershell,unity,unreal" />
+  <img src="https://skillicons.dev/icons?i=java,php,html,lua,matlab,vue,vite,threejs,nodejs,tensorflow,pytorch,sklearn,docker,figma,pycharm,androidstudio,powershell,unity,unreal" />
 </p>
 
 ---
 
 ## Things I like to build
 
-- 🤖 **AI tools that survive real inputs**  
+- **AI tools with real inputs**  
   RAG, automation, and LLM flows that still make sense after edge cases show up.
 
-- 🌐 **Web products with clear paths**  
-  Apps where the main action is obvious and the error states are not an afterthought.
+- **Web apps with clear paths**  
+  Screens where the main action is obvious and error states are not an afterthought.
 
-- ⚡ **Fast experiments**  
+- **Fast experiments**  
   Small projects to test ideas before they become giant TODO lists.
 
-- 🎯 **Product-minded software**  
+- **Useful product details**  
   Less "cool demo", more "I know why this button exists".
 
 ---
 
-## Music vibe
+## Listening lately
 
 <p align="center">
   <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=ferrelganendra&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false" alt="Spotify Now Playing" />
@@ -134,8 +111,6 @@ Usually coding with coffee nearby.
 
 <div align="center">
 
-### Building, learning, shipping
-
-One small project at a time.
+If it starts as a messy note and ends as a working app, I'm probably interested.
 
 </div>
