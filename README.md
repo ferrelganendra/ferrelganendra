@@ -8,7 +8,7 @@ Informatics grad from Yogyakarta. I build AI tools, web apps, and random side pr
 
 </div>
 
-<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="250"/>
+<img align="right" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" width="250"/>
 
 ### Connect with me
 
@@ -35,11 +35,11 @@ Informatics grad from Yogyakarta. I build AI tools, web apps, and random side pr
 
 ### GitHub Stats
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=ferrelganendra&theme=dark&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=ferrelganendra&theme=dark&hide_border=true)](https://git.io/streak-stats)
 
-[![Ferrel's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ferrelganendra&show_icons=true&theme=dark&hide_border=true)](https://github.com/ferrelganendra)
+[![Ferrel's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ferrelganendra&show_icons=true&theme=dark&hide_border=true&cache_seconds=1800)](https://github.com/ferrelganendra)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ferrelganendra&layout=compact&theme=dark&hide_border=true)](https://github.com/ferrelganendra)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ferrelganendra&layout=compact&theme=dark&hide_border=true&cache_seconds=1800)](https://github.com/ferrelganendra)
 
 [![Trophies](https://github-profile-trophy.vercel.app/?username=ferrelganendra&theme=darkhub&no-frame=true&row=1)](https://github.com/ferrelganendra)
 
