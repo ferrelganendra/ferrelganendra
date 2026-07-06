@@ -114,7 +114,7 @@ Usually coding with coffee nearby.
 ## Music vibe
 
 <p align="center">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=ferrelganendra&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=false&bar_color=58a6ff&bar_color_cover=false" alt="Spotify Now Playing" />
+  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=ferrelganendra&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&profanity=false&hide_remaster=false" alt="Spotify Now Playing" />
 </p>
 
 ---
