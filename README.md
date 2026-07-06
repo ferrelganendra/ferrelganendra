@@ -13,10 +13,6 @@ I like the messy part of building: turning a rough note into a screen, then into
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=2600&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Making+RAG+less+fragile;Debugging+wrong+assumptions;Shipping+small+tools;Coffee+nearby%2C+tabs+everywhere)](https://git.io/typing-svg)
 
-<br/>
-
-[![Profile views](https://komarev.com/ghpvc/?username=ferrelganendra&color=blue&style=flat)](https://github.com/ferrelganendra)
-
 </div>
 
 ---
@@ -32,27 +28,31 @@ I like the messy part of building: turning a rough note into a screen, then into
 
 ---
 
+## Recent builds
+
+- **Puthic Sari ecommerce**  
+  Private client project for a local business. Worked on storefront UI, product content flow, and deployment. Repo private for client confidentiality.
+
+- **Portfolio experiments**  
+  Small public projects for testing AI workflows, web UI ideas, and deployment patterns before they get too precious.
+
+---
+
+## Learning the hard way
+
+- RAG breaks on boring edge cases before it breaks on smart questions
+- good UI is mostly clear states, not prettier cards
+- shipping small projects exposes vague thinking fast
+- the bug is often a wrong assumption wearing a syntax error costume
+
+---
+
 ## What I'm up to
 
 - building portfolio projects I would actually revisit later
 - learning how LLM workflows behave after the demo stops being cute
 - turning vague ideas into working apps with clear buttons, errors, and data
 - trying to get better taste by shipping, noticing what feels off, then fixing it
-
----
-
-## Connect with me
-
-<p>
-  <a href="https://linkedin.com/in/ferrelganendra" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" height="42" alt="LinkedIn" />
-  </a>
-  <a href="https://instagram.com/ferrelganendra" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" height="42" alt="Instagram" />
-  </a>
-</p>
-
-Portfolio: [ferrelganendra.my.id](https://ferrelganendra.my.id)
 
 ---
 
@@ -67,7 +67,7 @@ Portfolio: [ferrelganendra.my.id](https://ferrelganendra.my.id)
 ### Also used
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,php,html,lua,matlab,vue,vite,threejs,nodejs,tensorflow,pytorch,sklearn,docker,figma,pycharm,androidstudio,powershell,unity,unreal" />
+  <img src="https://skillicons.dev/icons?i=java,php,vue,nodejs,tensorflow,pytorch,sklearn,docker,figma,pycharm,androidstudio,powershell" />
 </p>
 
 ---
@@ -85,6 +85,21 @@ Portfolio: [ferrelganendra.my.id](https://ferrelganendra.my.id)
 
 - **Useful product details**  
   Less "cool demo", more "I know why this button exists".
+
+---
+
+## Connect with me
+
+<p>
+  <a href="https://linkedin.com/in/ferrelganendra" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" height="42" alt="LinkedIn" />
+  </a>
+  <a href="https://instagram.com/ferrelganendra" target="_blank">
+    <img src="https://skillicons.dev/icons?i=instagram" height="42" alt="Instagram" />
+  </a>
+</p>
+
+Portfolio: [ferrelganendra.my.id](https://ferrelganendra.my.id)
 
 ---
 
