@@ -2,7 +2,7 @@
 
 I like the messy part of building: turning a rough note into a screen, then into something with real data, handled edge cases, and a reason to exist.
 
-<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-0" src="./.github/assets/block-0-9f39c78d.svg"/></a>
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-0" src="./.github/assets/block-0-27568276.svg"/></a>
 
 <a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-1" src="./.github/assets/block-1-a969c5da.svg"/></a>
 
@@ -25,6 +25,10 @@ I like the messy part of building: turning a rough note into a screen, then into
 </div>
 
 <a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-3" src="./.github/assets/block-3-76147f3b.svg"/></a>
+
+## Project links
+
+[rag-chatbot](https://github.com/ferrelganendra/rag-chatbot) · [JobRadar LIVE](https://jobradar-live.pages.dev) · [Puthic-Sari](https://github.com/ferrelganendra/Puthic-Sari)
 
 ## GitHub
 

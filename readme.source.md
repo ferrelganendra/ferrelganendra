@@ -172,6 +172,10 @@ I like the messy part of building: turning a rough note into a screen, then into
 </div>
 ```
 
+## Project links
+
+[rag-chatbot](https://github.com/ferrelganendra/rag-chatbot) · [JobRadar LIVE](https://jobradar-live.pages.dev) · [Puthic-Sari](https://github.com/ferrelganendra/Puthic-Sari)
+
 ## GitHub
 
 <div align="center">
