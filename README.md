@@ -7,7 +7,7 @@ Informatics graduate from Yogyakarta, Indonesia. I build web apps and AI tools t
 ![FERREL GANENDRA - building tools that outlive the demo](./assets/banner.svg)
 
 <!-- Animated snake riding the contribution grid -->
-![GitHub contribution snake](./output/github-contribution-grid-snake-dark.svg)
+![GitHub contribution snake](https://raw.githubusercontent.com/ferrelganendra/ferrelganendra/output/github-contribution-grid-snake-dark.svg)
 
 ---
 
