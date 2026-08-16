@@ -2,7 +2,7 @@
 
 I like the messy part of building: turning a rough note into a screen, then into something with real data, handled edge cases, and a reason to exist.
 
-<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-0" src="./.github/assets/block-0-ae37e824.svg"/></a>
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-0" src="./.github/assets/block-0-01091578.svg"/></a>
 
 <a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-1" src="./.github/assets/block-1-a969c5da.svg"/></a>
 
@@ -19,9 +19,7 @@ I like the messy part of building: turning a rough note into a screen, then into
 ## Featured work
 
 <!-- FEATURED_PROJECT_LINKS_START -->
-
 [rag-chatbot](https://github.com/ferrelganendra/rag-chatbot) · [JobRadar LIVE](https://jobradar-live.pages.dev) · [Puthic-Sari](https://github.com/ferrelganendra/Puthic-Sari)
-
 <!-- FEATURED_PROJECT_LINKS_END -->
 
 <a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-3" src="./.github/assets/block-3-76147f3b.svg"/></a>
@@ -29,9 +27,7 @@ I like the messy part of building: turning a rough note into a screen, then into
 ## Project links
 
 <!-- PROJECT_LINKS_START -->
-
 [rag-chatbot](https://github.com/ferrelganendra/rag-chatbot) · [JobRadar LIVE](https://jobradar-live.pages.dev) · [Puthic-Sari](https://github.com/ferrelganendra/Puthic-Sari)
-
 <!-- PROJECT_LINKS_END -->
 
 ## GitHub
