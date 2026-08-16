@@ -166,6 +166,12 @@ I like the messy part of building: turning a rough note into a screen, then into
 </div>
 ```
 
+<div align="center">
+
+[rag-chatbot](https://github.com/ferrelganendra/rag-chatbot) · [JobRadar LIVE](https://jobradar-live.pages.dev) · [Puthic-Sari](https://github.com/ferrelganendra/Puthic-Sari)
+
+</div>
+
 ## GitHub
 
 <div align="center">
