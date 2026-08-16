@@ -2,7 +2,7 @@
 
 I like the messy part of building: turning a rough note into a screen, then into something with real data, handled edge cases, and a reason to exist.
 
-![block-0](./.github/assets/block-0-bbe2a79f.svg)
+![block-0](./.github/assets/block-0-e0ed1e8d.svg)
 
 ![block-1](./.github/assets/block-1-0563e1b3.svg)
 
