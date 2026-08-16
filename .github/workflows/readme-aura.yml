@@ -37,6 +37,20 @@ jobs:
           cd ../../
           sed -i 's/readme-aura-component/block/g' README.md
 
+      - name: Wrap blocks in portfolio links
+        run: |
+          python3 - <<'PY'
+          import re, os
+          f = 'README.md'
+          rd = open(f).read()
+          def wrap(m):
+              img = m.group(0); alt = re.search(r'!\[(.*?)\]', img).group(1); src = re.search(r'\((.*?)\)', img).group(1)
+              return '<a href="https://ferrelganendra.my.id" target="_blank"><img alt="{a}" src="{s}"/></a>'.format(a=alt, s=src)
+          rd2 = re.sub(r'!\[(block-\d)\]\(.*?\)', wrap, rd)
+          open(f, 'w').write(rd2)
+          print('wrapped', len(re.findall(r'https://ferrelganendra.my.id', rd2)), 'blocks')
+          PY
+
       - name: Commit generated README
         run: |
           git config user.name "ferrelganendra"
