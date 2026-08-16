@@ -63,7 +63,7 @@ jobs:
           page = 1
           while True:
               query = urllib.parse.urlencode({'per_page': 100, 'page': page, 'sort': 'created', 'direction': 'asc'})
-              request = urllib.request.Request(f'https://api.github.com/user/repos?{query}', headers=headers)
+              request = urllib.request.Request(f'https://api.github.com/users/ferrelganendra/repos?{query}', headers=headers)
               with urllib.request.urlopen(request) as response:
                   batch = json.load(response)
               if not batch:
