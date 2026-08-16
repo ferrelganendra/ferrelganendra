@@ -1,0 +1,33 @@
+name: generate-3d-contrib
+
+on:
+  schedule:
+    # 03:00 JST == 18:00 UTC
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: settings/gitblock-dark.json
+
+      # Commit result as Ferrel (NOT github-actions bot)
+      - name: Commit & Push
+        run: |
+          git config user.name "ferrelganendra"
+          git config user.email "ferrelganendra25@gmail.com"
+          git add -A .
+          git diff --quiet && git diff --staged --quiet \
+            || git commit -m "refresh 3d contribution graphic"
+          git push
