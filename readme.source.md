@@ -180,26 +180,14 @@ I like the messy part of building: turning a rough note into a screen, then into
 
 ## Connect
 
-```aura width=860 height=60 align=center
-<div style={{ width:'100%', height:'100%', display:'flex', alignItems:'center', justifyContent:'center', gap:14, fontFamily:'Inter', background:'#0d0d10', borderRadius:20, border:'1px solid rgba(201,209,217,0.1)' }}>
-  <style>{`
-    @keyframes linkGlow { 0%,100% { filter:brightness(1); } 50% { filter:brightness(1.35); } }
-    @keyframes ray { 0% { opacity:0; transform:scale(0.4); } 100% { opacity:1; transform:scale(1.6); } }
-    .lglow { animation:linkGlow 2.4s ease-in-out infinite; }
-    .ray { animation:ray 2.4s ease-out infinite; transform-origin:center; transform-box:fill-box; }
-    .ray2 { animation:ray 2.4s ease-out infinite; animation-delay:1.2s; transform-origin:center; transform-box:fill-box; }
-  `}</style>
-  <span style={{ fontSize:13, color:'#c9d1d9', fontWeight:500 }}>Let's build something.</span>
-  <svg width="6" height="6" viewBox="0 0 6 6" style={{ display:'flex' }}>
-    <circle className="ray" cx="3" cy="3" r="2.5" fill="none" stroke="#FF3B30" strokeWidth="1"/>
-    <circle className="ray2" cx="3" cy="3" r="2.5" fill="none" stroke="#FF3B30" strokeWidth="1"/>
-    <circle cx="3" cy="3" r="1.6" fill="#FF3B30"/>
-  </svg>
-  <span className="lglow" style={{ fontSize:13, color:'#58a6ff', fontWeight:600 }}>LinkedIn</span>
-  <span style={{ color:'#c9d1d9', fontSize:13 }}>·</span>
-  <span className="lglow" style={{ fontSize:13, color:'#58a6ff', fontWeight:600 }}>portfolio</span>
+Let's build something — connect with me below.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ferrelganendra/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF3B30?style=for-the-badge&logo=octocat&logoColor=white)](https://ferrelganendra.my.id)
+
 </div>
-```
 
 ```aura width=860 height=40 align=center
 <div style={{ width:'100%', height:'100%', display:'flex', alignItems:'center', overflow:'hidden', fontFamily:'Menlo,monospace', background:'#0d0d10', borderRadius:10, border:'1px solid rgba(255,59,48,0.2)', position:'relative', padding:'0 14px' }}>
@@ -209,7 +197,6 @@ I like the messy part of building: turning a rough note into a screen, then into
   `}</style>
   <div style={{ position:'absolute', zIndex:2, left:0, top:0, bottom:0, width:20, background:'linear-gradient(90deg,#0d0d10,transparent)' }}></div>
   <div style={{ position:'absolute', zIndex:2, right:0, top:0, bottom:0, width:20, background:'linear-gradient(270deg,#0d0d10,transparent)' }}></div>
-  <span style={{ fontSize:12, color:'#FF3B30', fontWeight:700, paddingRight:10, position:'relative', zIndex:3 }}>[stack]</span>
   <div style={{ position:'relative', zIndex:2, display:'flex' }}>
     <div id="ticker" style={{ fontSize:11, color:'rgba(201,209,217,0.65)', whiteSpace:'pre', letterSpacing:'2px' }}>  PYTHON &nbsp;·&nbsp; TYPESCRIPT &nbsp;·&nbsp; REACT &nbsp;·&nbsp; NEXT.JS &nbsp;·&nbsp; FASTAPI &nbsp;·&nbsp; SUPABASE &nbsp;·&nbsp; RAG &nbsp;·&nbsp; LLM &nbsp;·&nbsp;  PYTHON &nbsp;·&nbsp; TYPESCRIPT &nbsp;·&nbsp; REACT &nbsp;·&nbsp; NEXT.JS &nbsp;·&nbsp; FASTAPI &nbsp;·&nbsp; SUPABASE &nbsp;·&nbsp; RAG &nbsp;·&nbsp; LLM &nbsp;·&nbsp;</div>
   </div>
