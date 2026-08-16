@@ -135,6 +135,12 @@ I like the messy part of building: turning a rough note into a screen, then into
 
 ## Featured work
 
+<div align="center">
+
+[rag-chatbot](https://github.com/ferrelganendra/rag-chatbot) · [JobRadar LIVE](https://jobradar-live.pages.dev) · [Puthic-Sari](https://github.com/ferrelganendra/Puthic-Sari)
+
+</div>
+
 ```aura width=860 height=190 align=center
 <div style={{ width:'100%', height:'100%', background:'#0d0d10', display:'flex', fontFamily:'Inter', flexDirection:'column', position:'relative', overflow:'hidden', borderRadius:20, border:'1px solid rgba(201,209,217,0.1)', padding:'22px 30px', gap:12 }}>
   <style>{`
@@ -165,12 +171,6 @@ I like the messy part of building: turning a rough note into a screen, then into
  </div>
 </div>
 ```
-
-<div align="center">
-
-[rag-chatbot](https://github.com/ferrelganendra/rag-chatbot) · [JobRadar LIVE](https://jobradar-live.pages.dev) · [Puthic-Sari](https://github.com/ferrelganendra/Puthic-Sari)
-
-</div>
 
 ## GitHub
 
