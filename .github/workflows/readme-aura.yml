@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths: ['readme.source.md']
   schedule:
-    - cron: '0 6 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
@@ -36,6 +36,71 @@ jobs:
           done
           cd ../../
           sed -i 's/readme-aura-component/block/g' README.md
+
+      - name: Refresh project links
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import re
+          import urllib.parse
+          import urllib.request
+
+          BASELINE = '2026-08-17T00:00:00Z'
+          baseline = [
+              ('rag-chatbot', 'https://github.com/ferrelganendra/rag-chatbot'),
+              ('JobRadar LIVE', 'https://jobradar-live.pages.dev'),
+              ('Puthic-Sari', 'https://github.com/ferrelganendra/Puthic-Sari'),
+          ]
+          headers = {
+              'Accept': 'application/vnd.github+json',
+              'Authorization': f"Bearer {os.environ['GH_TOKEN']}",
+              'X-GitHub-Api-Version': '2022-11-28',
+          }
+          repos = []
+          page = 1
+          while True:
+              query = urllib.parse.urlencode({'per_page': 100, 'page': page, 'sort': 'created', 'direction': 'asc'})
+              request = urllib.request.Request(f'https://api.github.com/user/repos?{query}', headers=headers)
+              with urllib.request.urlopen(request) as response:
+                  batch = json.load(response)
+              if not batch:
+                  break
+              repos.extend(batch)
+              page += 1
+
+          discovered = []
+          for repo in repos:
+              if repo.get('private') or repo.get('fork') or repo.get('archived'):
+                  continue
+              if repo.get('created_at', '') <= BASELINE:
+                  continue
+              label = repo['name'].replace('-', ' ').replace('_', ' ').title()
+              discovered.append((repo['created_at'], label, repo['html_url']))
+          discovered.sort()
+          links = baseline + [(label, url) for _, label, url in discovered]
+          link_line = ' · '.join(f'[{label}]({url})' for label, url in links)
+
+          readme = open('README.md').read()
+          for marker in ('FEATURED_PROJECT_LINKS', 'PROJECT_LINKS'):
+              pattern = re.compile(
+                  rf'<!-- {marker}_START -->.*?<!-- {marker}_END -->',
+                  re.DOTALL,
+              )
+              replacement = (
+                  f'<!-- {marker}_START -->\\n'
+                  f'{link_line}\\n'
+                  f'<!-- {marker}_END -->'
+              )
+              readme, count = pattern.subn(replacement, readme, count=1)
+              if count != 1:
+                  raise RuntimeError(f'missing {marker} markers')
+          open('README.md', 'w').write(readme)
+          print('project links:', link_line)
+          print('new projects:', len(discovered))
+          PY
 
       - name: Wrap blocks in portfolio links
         run: |
