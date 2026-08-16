@@ -2,7 +2,7 @@
 
 I like the messy part of building: turning a rough note into a screen, then into something with real data, handled edge cases, and a reason to exist.
 
-![block-0](./.github/assets/block-0-e0ed1e8d.svg)
+![block-0](./.github/assets/block-0-91fbc4ec.svg)
 
 ![block-1](./.github/assets/block-1-0563e1b3.svg)
 
@@ -32,7 +32,7 @@ I like the messy part of building: turning a rough note into a screen, then into
 
 ## Connect
 
-![block-4](./.github/assets/block-4-f1d021e3.svg)
+![block-4](./.github/assets/block-4-7463fbc9.svg)
 
 ![block-5](./.github/assets/block-5-87061700.svg)
 

@@ -181,7 +181,7 @@ I like the messy part of building: turning a rough note into a screen, then into
 ## Connect
 
 ```aura width=860 height=60 align=center
-<div style={{ width:'100%', height:'100%', display:'flex', alignItems:'center', justifyContent:'center', gap:14, fontFamily:'Inter' }}>
+<div style={{ width:'100%', height:'100%', display:'flex', alignItems:'center', justifyContent:'center', gap:14, fontFamily:'Inter', background:'#0d0d10', borderRadius:20, border:'1px solid rgba(201,209,217,0.1)' }}>
   <style>{`
     @keyframes linkGlow { 0%,100% { filter:brightness(1); } 50% { filter:brightness(1.35); } }
     @keyframes ray { 0% { opacity:0; transform:scale(0.4); } 100% { opacity:1; transform:scale(1.6); } }
