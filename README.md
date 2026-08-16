@@ -2,13 +2,13 @@
 
 I like the messy part of building: turning a rough note into a screen, then into something with real data, handled edge cases, and a reason to exist.
 
-![block-0](./.github/assets/block-0-d6e4155c.svg)
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-0" src="./.github/assets/block-0-d6e4155c.svg"/></a>
 
-![block-1](./.github/assets/block-1-0563e1b3.svg)
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-1" src="./.github/assets/block-1-0563e1b3.svg"/></a>
 
 ## What I'm building
 
-![block-2](./.github/assets/block-2-0148cad9.svg)
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-2" src="./.github/assets/block-2-0148cad9.svg"/></a>
 
 ## Where I'm strong
 
@@ -18,7 +18,7 @@ I like the messy part of building: turning a rough note into a screen, then into
 
 ## Featured work
 
-![block-3](./.github/assets/block-3-d4daad26.svg)
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-3" src="./.github/assets/block-3-d4daad26.svg"/></a>
 
 ## GitHub
 
@@ -32,8 +32,8 @@ I like the messy part of building: turning a rough note into a screen, then into
 
 ## Connect
 
-![block-4](./.github/assets/block-4-7463fbc9.svg)
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-4" src="./.github/assets/block-4-7463fbc9.svg"/></a>
 
-![block-5](./.github/assets/block-5-87061700.svg)
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-5" src="./.github/assets/block-5-87061700.svg"/></a>
 
 *If it starts as a messy note and ends as a working app, I'm probably interested.*
