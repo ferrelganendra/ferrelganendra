@@ -48,12 +48,13 @@ jobs:
           import urllib.parse
           import urllib.request
 
-          BASELINE = '2026-08-17T00:00:00Z'
           baseline = [
               ('rag-chatbot', 'https://github.com/ferrelganendra/rag-chatbot'),
               ('JobRadar LIVE', 'https://jobradar-live.pages.dev'),
               ('Puthic-Sari', 'https://github.com/ferrelganendra/Puthic-Sari'),
           ]
+          baseline_names = {'rag-chatbot', 'jobradar-live', 'Puthic-Sari'}
+          max_dynamic = 3
           headers = {
               'Accept': 'application/vnd.github+json',
               'Authorization': f"Bearer {os.environ['GH_TOKEN']}",
@@ -62,7 +63,7 @@ jobs:
           repos = []
           page = 1
           while True:
-              query = urllib.parse.urlencode({'per_page': 100, 'page': page, 'sort': 'created', 'direction': 'asc'})
+              query = urllib.parse.urlencode({'per_page': 100, 'page': page, 'sort': 'created', 'direction': 'desc'})
               request = urllib.request.Request(f'https://api.github.com/users/ferrelganendra/repos?{query}', headers=headers)
               with urllib.request.urlopen(request) as response:
                   batch = json.load(response)
@@ -73,14 +74,19 @@ jobs:
 
           discovered = []
           for repo in repos:
-              if repo.get('private') or repo.get('fork') or repo.get('archived'):
-                  continue
-              if repo.get('created_at', '') <= BASELINE:
+              topics = {topic.lower() for topic in repo.get('topics', [])}
+              if (
+                  repo.get('private')
+                  or repo.get('fork')
+                  or repo.get('archived')
+                  or repo['name'] in baseline_names
+                  or 'portfolio' not in topics
+              ):
                   continue
               label = repo['name'].replace('-', ' ').replace('_', ' ').title()
               discovered.append((repo['created_at'], label, repo['html_url']))
-          discovered.sort()
-          links = baseline + [(label, url) for _, label, url in discovered]
+          discovered = sorted(discovered, reverse=True)[:max_dynamic]
+          links = baseline + [(label, url) for _, label, url in reversed(discovered)]
           link_line = ' · '.join(f'[{label}]({url})' for label, url in links)
 
           readme = open('README.md').read()
