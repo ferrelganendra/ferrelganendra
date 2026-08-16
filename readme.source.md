@@ -52,7 +52,7 @@ I like the messy part of building: turning a rough note into a screen, then into
       <div style={{ fontSize:12, letterSpacing:5, color:'#FF3B30', fontWeight:700 }}>WEB · AI · SHIPPED</div>
       <div style={{ fontSize:46, fontWeight:800, color:'#ffffff', letterSpacing:'-1.5px', lineHeight:1.05 }}>FERREL GANENDRA</div>
       <div style={{ fontSize:14, color:'rgba(201,209,217,0.85)', fontWeight:400, maxWidth:430, lineHeight:1.45 }}>
-        {github?.user?.bio || 'Turning rough notes into shipped apps — RAG, LLM tools, and web apps with real inputs.'}
+        {github?.user?.bio || 'Turning rough notes into shipped apps - RAG, LLM tools, and web apps with real inputs.'}
       </div>
     </div>
   </div>
@@ -129,42 +129,40 @@ I like the messy part of building: turning a rough note into a screen, then into
 
 ## Where I'm strong
 
-- **AI tools with real inputs** — RAG, automation, and LLM flows that still behave after the demo stops being cute.
-- **Web apps with a clear path** — one obvious main action, error states handled, not an afterthought.
-- **Shipping** — small things that work, instead of demos that die in a README.
+- **AI tools with real inputs** - RAG, automation, and LLM flows that still behave after the demo stops being cute.
+- **Web apps with a clear path** - one obvious main action, error states handled, not an afterthought.
+- **Shipping** - small things that work, instead of demos that die in a README.
 
 ## Featured work
 
-```aura width=860 height=180 align=center
-<div style={{ width:'100%', height:'100%', background:'#0d0d10', display:'flex', fontFamily:'Inter', flexDirection:'column', position:'relative', overflow:'hidden', borderRadius:20, border:'1px solid rgba(201,209,217,0.1)', padding:'22px 30px', gap:10 }}>
+```aura width=860 height=190 align=center
+<div style={{ width:'100%', height:'100%', background:'#0d0d10', display:'flex', fontFamily:'Inter', flexDirection:'column', position:'relative', overflow:'hidden', borderRadius:20, border:'1px solid rgba(201,209,217,0.1)', padding:'22px 30px', gap:12 }}>
   <style>{`
-    @keyframes fadeRow { 0% { opacity:0; transform:translateY(8px); } 100% { opacity:1; transform:translateY(0); } }
-    @keyframes arrowNudge { 0%,100% { transform:translateX(0); opacity:.6; } 50% { transform:translateX(5px); opacity:1; } }
-    .frow { animation:fadeRow .5s ease-out forwards; }
-    .arrow { animation:arrowNudge 2.2s ease-in-out infinite; }
+    @keyframes featuredReveal { 0% { opacity:0; transform:translateY(8px); } 100% { opacity:1; transform:translateY(0); } }
+    @keyframes featuredNudge { 0%,100% { opacity:.45; transform:translateX(0); } 50% { opacity:1; transform:translateX(4px); } }
+    @keyframes featuredPulse { 0%,100% { opacity:1; } 50% { opacity:.55; } }
+    .featured-row { animation:featuredReveal .65s ease-out both; }
+    .featured-row-1 { animation-delay:.05s; }
+    .featured-row-2 { animation-delay:.18s; }
+    .featured-row-3 { animation-delay:.31s; }
+    .featured-arrow { animation:featuredNudge 2s ease-in-out infinite; }
+    .featured-label { animation:featuredPulse 2.4s ease-in-out infinite; }
   `}</style>
-  <style>{`
-    .frow:nth-child(1) { animation-delay:.05s; }
-    .frow:nth-child(2) { animation-delay:.25s; }
-    .frow:nth-child(3) { animation-delay:.45s; }
-  `}</style>
-  <div style={{ display:'flex', flexDirection:'column', gap:10 }}>
-    {(github && github.repos && github.repos.length ? github.repos.slice(0,3) : []).map(function(r,i){
-      return (
-        <div key={i} className="frow" style={{ display:'flex', justifyContent:'space-between', alignItems:'center', borderBottom:'1px solid rgba(201,209,217,0.08)', paddingBottom:9 }}>
-          <div style={{ display:'flex', flexDirection:'column', gap:2 }}>
-            <span style={{ fontSize:14, fontWeight:700, color:'#f5f5f7' }}>{r.name}</span>
-            <span style={{ fontSize:11, color:'rgba(201,209,217,0.6)' }}>{r.description || ''}</span>
-          </div>
-          <div style={{ display:'flex', gap:10, fontSize:12, color:'rgba(201,209,217,0.6)', alignItems:'center' }}>
-            {r.language ? <span style={{ color:'#FF6B5F' }}>{r.language}</span> : null}
-            <span>&#9733; {r.stars || 0}</span>
-            <span className="arrow" style={{ color:'#FF3B30' }}>&#8594;</span>
-          </div>
-        </div>
-      );
-    })}
-  </div>
+  <div className="featured-label" style={{ fontSize:12, letterSpacing:3, color:'#FF3B30', fontWeight:700 }}>FEATURED WORK</div>
+  <div style={{ display:'flex', flexDirection:'column', gap:11 }}>
+    <div className="featured-row featured-row-1" style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
+      <span style={{ fontSize:14, fontWeight:700, color:'#f5f5f7' }}>rag-chatbot</span>
+      <span style={{ display:'flex', alignItems:'center', gap:8, fontSize:12, color:'rgba(201,209,217,0.6)' }}>Python · ★ 1 <span className="featured-arrow" style={{ color:'#FF3B30', fontSize:14 }}>→</span></span>
+   </div>
+    <div className="featured-row featured-row-2" style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
+      <span style={{ fontSize:14, fontWeight:700, color:'#f5f5f7' }}>jobradar-live</span>
+      <span style={{ display:'flex', alignItems:'center', gap:8, fontSize:12, color:'rgba(201,209,217,0.6)' }}>Python · ★ 0 <span className="featured-arrow" style={{ color:'#FF3B30', fontSize:14 }}>→</span></span>
+   </div>
+    <div className="featured-row featured-row-3" style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
+      <span style={{ fontSize:14, fontWeight:700, color:'#f5f5f7' }}>Puthic-Sari</span>
+      <span style={{ display:'flex', alignItems:'center', gap:8, fontSize:12, color:'rgba(201,209,217,0.6)' }}>JavaScript · ★ 0 <span className="featured-arrow" style={{ color:'#FF3B30', fontSize:14 }}>→</span></span>
+   </div>
+ </div>
 </div>
 ```
 
@@ -180,7 +178,7 @@ I like the messy part of building: turning a rough note into a screen, then into
 
 ## Connect
 
-Let's build something — connect with me below.
+Let's build something - connect with me below.
 
 <div align="center">
 

@@ -2,9 +2,9 @@
 
 I like the messy part of building: turning a rough note into a screen, then into something with real data, handled edge cases, and a reason to exist.
 
-<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-0" src="./.github/assets/block-0-9f78b5bf.svg"/></a>
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-0" src="./.github/assets/block-0-d63a2089.svg"/></a>
 
-<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-1" src="./.github/assets/block-1-0563e1b3.svg"/></a>
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-1" src="./.github/assets/block-1-a969c5da.svg"/></a>
 
 ## What I'm building
 
@@ -12,13 +12,13 @@ I like the messy part of building: turning a rough note into a screen, then into
 
 ## Where I'm strong
 
-* **AI tools with real inputs** — RAG, automation, and LLM flows that still behave after the demo stops being cute.
-* **Web apps with a clear path** — one obvious main action, error states handled, not an afterthought.
-* **Shipping** — small things that work, instead of demos that die in a README.
+* **AI tools with real inputs** - RAG, automation, and LLM flows that still behave after the demo stops being cute.
+* **Web apps with a clear path** - one obvious main action, error states handled, not an afterthought.
+* **Shipping** - small things that work, instead of demos that die in a README.
 
 ## Featured work
 
-<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-3" src="./.github/assets/block-3-d4daad26.svg"/></a>
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-3" src="./.github/assets/block-3-76147f3b.svg"/></a>
 
 ## GitHub
 
@@ -32,7 +32,7 @@ I like the messy part of building: turning a rough note into a screen, then into
 
 ## Connect
 
-Let's build something — connect with me below.
+Let's build something - connect with me below.
 
 <div align="center">
 
