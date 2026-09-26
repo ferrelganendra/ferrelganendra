@@ -2,7 +2,7 @@
 
 I like the messy part of building: turning a rough note into a screen, then into something with real data, handled edge cases, and a reason to exist.
 
-<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-0" src="./.github/assets/block-0-ff309077.svg"/></a>
+<a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-0" src="./.github/assets/block-0-8286d071.svg"/></a>
 
 <a href="https://ferrelganendra.my.id" target="_blank"><img alt="block-1" src="./.github/assets/block-1-17629564.svg"/></a>
 
